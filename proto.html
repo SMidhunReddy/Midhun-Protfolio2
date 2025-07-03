@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Midhun Reddy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="proto.css">
+</head>
+
+<body>
+
+<div class="head">
+    <p style="color: white;">MIDHUN REDDY</p>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <div class="contain">
+      <a href="#Home" class="nav-link">Home</a>
+      <a href="#About" class="nav-link">About</a>
+      <a href="#Projects" class="nav-link">Projects</a>
+      <a href="#Experience" class="nav-link">Experience</a>
+    </div>
+    
+  </div>
+  <div class="overlay" onclick="toggleMenu()"></div>
+<section id="Home">
+  <!-- Main Section -->
+  <div class="main-section">
+    <!-- Text -->
+    <div class="team">
+      <p class="te">Hi, I'm <span class="tea">Midhun Reddy</span></p>
+      <p>Web Developer and Java Developer</p>
+      <div class="social-links">
+        <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+        <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- Image Positioned Bottom Right -->
+    <div class="image-wrapper">
+      <!-- ✅ Make sure image.png is in same folder -->
+      <img src="images/pngwing.com.png" alt="Your Image">
+    </div>
+  </div>
+</section>
+<section id="About">
+  <div class="team1">
+    <h1 class="team2" style="font-size: 3.5em;margin-bottom: 0.5em;margin-top: 0;">The Full Stack of<br> Midhun</h1><br>
+    <p class="abo" style="font-size:1.27em ;font-weight: lighter;">A tech-obsessed Computer Science student with mad skills in Python, Java,c,c++ and JavaScript! When not writing fancy code or playing with Machine Learning wizardry, this multi-talented human smashes volleyballs, designs low-poly 3D models, creates mobile games that make players rage. Part coder, part artist, part athlete - 100% awesome sauce with a side of tech brilliance!</p>
+  </div>
+
+</section>
+<section id="Projects">
+  <div class="projects-container">
+    <h1 class="projects-title">My Projects</h1>
+    
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card green-border">
+        <span class="tech-badge green">HTML,CSS,JS</span>
+        <h2>Rock,Paper Scissors game</h2>
+        <p>
+          An interactive web app that allows You to play Rock,Paper,Scissors Game with the computer with dynamic updates of scores and outcomes     </p>
+        <a href="#" class="view-project">View Project →</a>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card pink-border">
+        <span class="tech-badge pink">HTML,CSS,JS</span>
+        <h2>E-commerce website</h2>
+        <p>
+          A fully functional e-commerce website built with HTML, CSS, and JavaScript, featuring product listings, shopping cart functionality, and user authentication.
+        </p>
+        <a href="#" class="view-project">View Project →</a>
+      </div>
+
+      <!-- Add more cards below similarly -->
+      <div class="project-card yellow-border">
+        <span class="tech-badge yellow">Django & Deep learning</span>
+        <h2>Sleep Disorder detection</h2>
+        <p>
+          Web based app that allows for early prediction and classification of sleep disorders with the help of deep learning algorithms
+        </p>
+        <a href="#" class="view-project">View Project →</a>
+      </div>
+      <div class="project-card purple-border">
+        <span class="tech-badge purple">HTML,CSS,JS</span>
+        <h2>To-do list</h2>
+        <p>
+         An interactive web app that allows the user to schedule their tasks for better time management and also comes with priority based scheduling
+        </p>
+        <a href="#" class="view-project">View Project →</a>
+      </div>
+
+
+    </div>
+  </div>
+  <div style="position: absolute;top:50px;right:-150px;width: 300px;height: 300px;border-radius: 50%;background: linear-gradient(135deg,rgb(244,144,182)0%,rgb(167,139,250)100%);opacity: 0.1;z-index: 0;"></div>
+     <div style="position: absolute;bottom:-100px;left: -100px;width: 250px;height: 250px;border-radius: 50%;background: linear-gradient(135deg,rgb(74,222,128)0%,rgb(96,165,250)100%);opacity: 0.1;z-index: 0;overflow: hidden;"></div>
+</section>
+
+
+<section class="experience-section" id="Experience">
+  <div class="cont">
+  <h1 class="we">Professional Journey</h1>
+  <div class="timeline">
+    <div class="timeline-left">
+      <div class="timeline-marker"></div>
+      <div class="timeline-line" id="timeline-line"></div>
+    </div>
+    <div class="experience-details" id="details">
+      <h2 style="margin-bottom: 0.8em;">Internship Trainee</h2>
+      <a href="#" class="company">CSEdge</a>
+      <p class="location">Remote</p>
+      <p class="date">May 2024 – June 2024</p>
+      <p class="description">
+        Assisted in frontend development tasks, contributing to UI components and layout enhancements.
+        Supported integration of advanced features into the platform, focusing on user interaction 
+        with smart contracts. Gained hands-on experience in  Web3 technologies, frontend frameworks, 
+        and advance web systems.
+      </p>
+    </div>
+    
+    </div>
+    </div>
+
+  
+  <div style="position:absolute;top:-100px;right:-150px;width:350px;height: 350px;border-radius: 50%;background: linear-gradient(135deg,rgb(96,165,250)0%,rgb(167,139,250)100%);opacity:0.1;z-index:0;"></div>
+  <div style="position:absolute;bottom:50px;left:-150px;width:300px;height: 300px;border-radius: 50%;background: linear-gradient(135deg,rgb(244,114,182)0%,rgb(74,222,128)100%);opacity:0.1;z-index:0;"></div>
+
+</section>
+
+<script src="proto.js"></script>
+
+
+</body>
+</html>
